@@ -33,8 +33,6 @@ const Quiz = () => {
           </div>
           <div className="logo-div">
             <img src={imgg} className="logo" />
-
-
           </div>
         </div>
       )}
