@@ -28,7 +28,7 @@ const Question = () => {
 
       </div>
       {
-        currentQuestion.question === "How many Goals did Cr7 scors in world cup 2018?" ?
+        currentQuestion.question === "How many Goals did Cr7 scores in world cup 2018?" ?
           <div className="question-div">
             <img src={don} className="q-imag" />
           </div>
