@@ -21,13 +21,16 @@ div {
   border-radius: 20px;
   opacity: 0.5;
 }
-.question-div{
+
+.question-div {
   text-align: center;
 }
-.q-imag{
+
+.q-imag {
   width: 16%;
   border-radius: 20px;
 }
+
 .question {
   background-color: #7F1431;
   color: white;
@@ -141,4 +144,40 @@ div {
 
 .disabled-answer {
   pointer-events: none;
+}
+
+@media (max-width: 890px) {
+  .answers {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: -webkit-center;
+    display: block;
+  }
+
+  .answer {
+    width: 30%;
+  }
+
+  .question {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .answers {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: -webkit-center;
+    display: block;
+  }
+
+  .answer {
+    width: 30%;
+  }
+
+  .question {
+    font-size: 15px;
+  }
 }

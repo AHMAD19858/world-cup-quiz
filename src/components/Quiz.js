@@ -17,14 +17,14 @@ const Quiz = () => {
               You've got {quizState.correctAnswersCount} of &nbsp;
               {quizState.questions.length} right.
             </div>
-           {
-            quizState.correctAnswersCount >=5? 
-            <h1>You're a champion, you have a great memory!</h1>
-            :
-            <h1>Enjoy your world cup,cheers!</h1>
-           }
+            {
+              quizState.correctAnswersCount >= 5 ?
+                <h4>You're a champion, you have a great memory!</h4>
+                :
+                <h4>Enjoy your world cup,cheers!</h4>
+            }
           </div>
-          
+
           <div
             onClick={() => dispatch({ type: "RESTART" })}
             className="next-button"

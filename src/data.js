@@ -11,7 +11,7 @@ const data = [
 
   {
     question:
-      "How many Goals did Cr7 scors in world cup 2018?",
+      "How many Goals did Cr7 scores in world cup 2018?",
     incorrectAnswers: [
       "1",
       "2",
